@@ -451,7 +451,12 @@ ul.foco-bullet{
 .imagen-mobile {
     top: -140px;
     position:relative;
+}
 
+@media screen and (max-width: 980px) {
+.imagen-mobile {
+display: none;
+}
 }
 
 .testimonial-item {

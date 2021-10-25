@@ -34,6 +34,11 @@
 .primary-bg-color {
     background-color:#733fe7;
 }
+
+.secondary-bg-color {
+    background-color:#FFC319;
+}
+
 a.primary-color:hover {
     color:#9a70f9;
 }
@@ -451,26 +456,6 @@ display: none;
 }
 }
 
-.containr {
-  width: 65%;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-inline: 1em 2em;
-  margin-right: auto;
-  margin-left: auto; }
-  @media (min-width: 576px) {
-    .containr {
-      max-width: 540px; } }
-  @media (min-width: 768px) {
-    .containr {
-      max-width: 720px; } }
-  @media (min-width: 992px) {
-    .containr {
-      max-width: 960px; } }
-  @media (min-width: 1200px) {
-    .containr {
-      max-width: 1140px; } }
-
 .testimonial-item {
     background-color:#f9f9f9;
     padding:3% 5% 5%;
@@ -645,4 +630,14 @@ background-image: url('images/migrante/Isotipos-04.webp');
 background-repeat: no-repeat;
 padding-left: 30px;  /* width of the image plus a little extra padding */
 display: block;  /* may not need this, but I've found I do */
+}
+
+.banner-credito-personal img {
+    width:100%;
+    height:auto;
+}
+
+.banner-credito-persona{
+    width:100%;
+    height:auto;
 }
