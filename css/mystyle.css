@@ -1,0 +1,640 @@
+.bg-light {
+    background:#fff !important;
+}
+
+.migrante-navbar {
+    position:relative !important;
+    top:0 !important;
+}
+
+.migrante-nav-margin {
+    margin-left:5vw;
+}
+
+.dropdown-menu {
+    width: 100%;
+    min-width: 15rem;
+}
+
+
+.migrante-dropdown .dropdown-item {
+    color:#000 !important;
+    text-align:center;
+}
+
+.moto-propia {
+    background:#fafafa !important;
+}
+
+
+
+.primary-color {
+    color:#733fe7;
+}
+.primary-bg-color {
+    background-color:#733fe7;
+}
+a.primary-color:hover {
+    color:#9a70f9;
+}
+
+.primary-color.btn {
+    background-color:#733fe7;
+    color:#fff;
+}
+
+.primary-color.btn:hover {
+    background-color:#ffc319;
+    color:#fff;
+}
+
+.secondary-color {
+    color:#ffc319;
+}
+
+.secondary-color.btn {
+    background-color:#ffc319 !important;
+    color:#733fe7;
+}
+
+#moto-header-buttons {
+    width:100%;
+    margin-left:6vw !important;
+}
+
+#moto-header-buttons p:last-child {
+    padding-left:20px; 
+}
+
+#moto-header-buttons a.btn-lg {
+    padding:10px 40px;
+}
+
+.info-banner {
+    background-color:#FFC319;
+}
+
+#sumate-banner img, #sumate-banner p {
+    padding: 0 1%;
+}
+
+#sumate-banner p {
+    color: #fff;
+    font-weight:700;
+}
+
+#sumate-banner .first-text {
+    font-size:1.6em;
+    text-align:left;
+    line-height:1.2em;
+}
+#sumate-banner .second-text {
+    font-size:4em;
+    text-align:left;
+}
+
+#sumate-banner .third-text {
+    text-align:center;
+}
+
+#sumate-banner .third-text span.primer-span {
+    font-size:1.6em;
+    line-height:.5em;
+}
+#sumate-banner > .third-text span.segundo-span, .fourth-text span.primer-span{
+    font-size:1.36em;
+    line-height: 1.1em;
+}
+#sumate-banner > .third-text, .fourth-text {
+    font-size:1.3em;
+    line-height: 1.1em;
+}
+
+#sumate-banner p.primary-color {
+    color:#733fe7;
+}
+
+.remove-mb {
+    margin-bottom: 0 !important;
+}
+
+.color-overlay-primary {
+    background-color:#733fe7;
+    opacity:.8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:1;
+}
+
+#credito-moto-aplica {
+    width:100%;
+    position:relative;
+    z-index:10;
+}
+
+#credito-moto-aplica p {
+    color:#fff;
+}
+
+#pregunta-inicio {
+    font-size:1.3em;
+    font-weight:600;
+}
+
+#aplica-preguntas {
+    color:#fff;
+}
+ul.foco-bullet{
+    list-style-image:none !important;
+    padding:0;
+    margin:0;
+}
+
+.lista-preguntas img {
+    width:29px;
+    height: 31px;
+}
+.lista-preguntas p {
+    margin-bottom:0px;
+    white-space: nowrap;
+    font-weight:700;
+}
+
+
+@media only screen and (max-width: 700px)  {
+    #sumate-banner .first-text, #sumate-banner .second-text {
+        text-align:center !important;
+    }
+    .migrante-dropdown {
+        background: #f7f7f7;
+    }
+    
+    .moto-propia h1 {
+        font-size:2em;
+        font-weight:700;
+        line-height:1.1em;
+    }
+    
+    #preguntas-respuesta {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    #respuesta-grande h2{
+        font-size:12em !important;
+        padding-top:0;
+        margin-top:0;
+    }
+    .text-sm-nowrap {
+        white-space:normal;
+    }
+    .testimonial-item .img-testimonial {
+        width:80%;
+        height:80%;
+        margin: 0 auto 20px;
+    }
+    .dropdown-toggle::after {
+        display:inline-block;
+    }
+    .navbar-mobile .nav-link {
+        color:#292929 !important;
+        text-align:right;
+    }
+    .servicios-texto h1 {
+        font-weight:600;
+        line-height:1em;
+        font-size:2em ;
+    }
+    .width-servicios {
+        padding: 5vh 2vw;
+    }
+    .servicios-texto p {
+        color:#000;
+        font-weight:300;
+        font-size:1em;
+    }
+    #services-row .col {
+        width:85vw;
+        margin: 0 auto;
+    }
+    .text-center-mobile {
+        text-align:center !important;
+    }
+    .info-pago h2 {
+        font-size:1.2em;
+    }
+
+    .info-pago h4 {
+        font-size:1em;
+    }
+    .info-pago li p {
+        font-size:.9em;
+    }
+    
+    .application-image img {
+        width:80vw !important;
+    }
+    
+}
+
+@media only screen and (min-width: 701px)  {
+    
+    .migrante-dropdown {
+        background: #f7f7f7;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .moto-propia h1 {
+        font-size:3.6em;
+        font-weight:700;
+        line-height:1.1em;
+    }
+
+    #pregunta-inicio {
+        padding-left:20vw;
+    }
+    #preguntas-respuesta {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        padding-left:25vw;
+    }
+    #respuesta-grande h2{
+        font-size:12em !important;
+        font-weight:700;
+        padding-top:0;
+        margin-top:0;
+    }
+    .text-sm-nowrap {
+        white-space:nowrap;
+    }
+    .dropdown-toggle::after {
+        display:none;
+    }
+    .width-servicios {
+        padding: 5vh 5vw 10vh;
+    }
+    .servicios-texto h1 {
+        font-weight:600;
+        line-height:1em;
+        font-size:3.6em;
+    }
+    .servicios-texto p {
+        color:#000;
+        font-weight:400;
+        font-size:1.1em;
+    }
+
+}
+
+#credito-moto-aplica a.btn {
+    padding:5px 40px;
+    font-size:1.2em;
+    font-weight:600;
+}
+#credito-moto-aplica a.btn:hover {
+    color:#733fe7;
+}
+
+.moto-heading {
+    font-weight:700;
+    font-size:2.6em;
+}
+
+.producto-item {
+    border-radius: 25px;
+    width:100% !important;
+}
+
+.producto-item h3 {
+   margin-bottom:0 !important;
+}
+
+.brand-title {
+    font-size:1.4em !important;
+}
+.model-title {
+    font-size:1.2em !important;
+}
+
+
+.producto-item img {
+    width:230px;
+    height:auto;
+}
+.product-info .precio {
+    margin-top:10px;
+}
+
+.btn-comprar {
+    margin-left:-8%;
+}
+.btn-comprar p {
+    margin-bottom:0 !important;
+}
+
+.btn-comprar p a {
+    color:#fff;
+    background-color:#733fe7;
+}
+.btn-comprar p a:hover {
+    color:#fff;
+    background-color:#FFC319;
+}
+.btn-comprar-bot {
+    color:#fff;
+    font-weight:600;
+    background-color:#FFC319;
+}
+.btn-comprar-bot:hover {
+    color:#fff;
+    background-color:#733fe7;
+}
+
+.product-info p {
+    margin-bottom:0 !important;
+    font-weight:300;
+    color:#000;
+    font-size:14px;
+}
+.product-info p.primary-color {
+    color:#733fe7 !important;
+}
+
+.product-info p.primary-color span {
+    color:#733fe7 !important;
+    font-weight:600;
+    background-color:#FFC319 !important;
+    padding:2px 4px;
+}
+
+
+.heading-medios #img-corazon {
+    filter: brightness(0) invert(1);
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    transform: rotate(-20deg);
+}
+
+.heading-medios h2{
+    float:left;
+    font-weight:800;
+    position: relative;
+    z-index : 1;
+}
+
+.heading-medios h2:before {
+    content : "";
+    position: absolute;
+    bottom:0;
+    width: 8%;  /* or 100px */
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-bottom:5px solid #733fe7;
+}
+.heading-medios img {
+    float:left;
+}
+
+.brand-wrapper img {
+    padding: 2% 6%;
+}
+
+.rounded-container-border {
+    border-radius:25px;
+}
+
+.tipos-pago {
+    padding:5% 0% !important;
+}
+
+.info-pago {
+    color: #fff;
+    font-size:18px;
+    line-height:1.1em;
+}
+
+.info-pago h2 {
+    color:#fff;
+    line-height:.8em;
+    font-weight:600;
+}
+
+.info-pago h4 {
+    margin-top:20px;
+    margin-bottom:20px;
+    line-height:.8em;
+    font-weight:600;
+}
+.info-pago a.btn {
+    font-weight:500;
+    font-size:.9em;
+    padding-left:4%;
+    padding-right:4%;
+}
+
+.imagen-redonda {
+    border-radius:50%;
+}
+
+.imagen-mobile {
+top: -140px;
+position:relative;
+}
+
+@media screen and (max-width: 980px) {
+.imagen-mobile {
+display: none;
+}
+}
+
+.containr {
+  width: 65%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-inline: 1em 2em;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 576px) {
+    .containr {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .containr {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .containr {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .containr {
+      max-width: 1140px; } }
+
+.testimonial-item {
+    background-color:#f9f9f9;
+    padding:3% 5% 5%;
+    margin-bottom:4%;
+}
+
+.testimonial-item .info {
+    padding:1% 2%;
+}
+
+.testimonial-item img {
+    width:150px;
+    height:150px;
+    margin-left:2%;
+    border-radius:50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 14px rgba(0,0,0,0.2);
+}
+
+.testimonial-item h4 {
+    font-weight:800;
+    color:#383838;
+}
+
+.testimonial-item .subtitulo.secondary-color {
+    font-weight:800;
+}
+
+.testimonial-item .mensaje {
+    color: #000;
+    font-weight:300;
+}
+
+#testimoniales-section {
+    background-color:#f4f4f4;
+    padding:2% 0;
+}
+
+.testimoniales-segunda-columna .testimonial-item {
+    padding-bottom:10% !important;
+}
+
+#app-info .logo-app-icon {
+    width:110px;
+    height:auto;
+}
+#app-info .logo-stores {
+    width:125px;
+    height:auto;
+}
+
+#app-info h4 {
+    font-weight:600;
+}
+
+
+.reduce-left-margin img {
+    margin-left:-8vw !important;
+}
+
+footer {
+    background-color:#f4f4f4;
+}
+
+footer h5{
+    color:#292929;
+}
+
+footer li a {
+    color:#292929;
+    font-weight:400;
+    font-size:.8em;
+}
+
+footer li a:hover {
+    color:#000;
+}
+
+.social-icons-wrapper li a {
+    background-color:#000 !important;
+    width:30px;
+    height:30px;
+}
+.social-icons-wrapper li a span {
+    font-size:20px;
+}
+
+.direccion-empresa {
+    color:#292929;
+    font-weight:400;
+    font-size:.8em;
+}
+
+/*Styles para pagina Servicio*/
+
+#services-row .col {
+    border-radius:8%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.color-overlay-primary-soft {
+    border-radius:8%;
+}
+
+.servicio-item {
+    position:relative;
+    z-index:10;
+}
+
+.servicio-item h3 {
+    color:#fff;
+    font-weight:600;
+    line-height:1.1em;
+}
+
+.servicio-item p {
+    font-weight:300;
+    color:#fff;
+    font-size:.96em;
+}
+
+.servicio-button {
+    font-weight:400;
+    color:#fff !important;
+    background-color:#ffc319;
+    font-size:1em;
+}
+.servicio-button:hover {
+    background-color:#733fe7;
+}
+
+.color-overlay-primary-soft {
+    background-color:#733fe7;
+    opacity:.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:1;
+}
+
+.remove-margin-section {
+    margin-left:0;
+    margin-right:0;
+}
+
+.mobile-photo-reduce {
+    width:50%;
+    height:auto;
+}
+
+.tipos-pagoindex {
+    padding:5% 0% !important;
+}
+
+.info-pagoindex {
+    color: #733FE7;
+    font-size:18px;
+    line-height:1.1em;
+}
+
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
