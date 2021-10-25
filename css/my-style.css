@@ -11,11 +11,6 @@
     margin-left:5vw;
 }
 
-.dropdown-menu {
-    width: 100%;
-    min-width: 15rem;
-}
-
 
 .migrante-dropdown .dropdown-item {
     color:#000 !important;
@@ -58,7 +53,6 @@ a.primary-color:hover {
 
 #moto-header-buttons {
     width:100%;
-    margin-left:6vw !important;
 }
 
 #moto-header-buttons a.btn-lg {
@@ -556,7 +550,7 @@ footer li a:hover {
 /*Styles para pagina Servicio*/
 
 #services-row .servicios-img-container {
-    border-radius:8%;
+    border-radius:20px;
     background-repeat:no-repeat;
     background-size:cover;
 }
@@ -615,6 +609,14 @@ footer li a:hover {
 
 .nav-link {
         color:#292929 !important;
+        font-weight:500 !important;
         text-align:right;
     }
 
+
+.mobile-title-link {
+    color:#a3a3a3 !important;
+    text-align:right;
+    font-weight:400;
+    margin-bottom:0;
+}

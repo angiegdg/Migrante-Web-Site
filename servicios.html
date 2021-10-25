@@ -28,11 +28,11 @@
     <link rel="stylesheet" href="css/my-style.css">
   </head>
   <body class="goto-here">
+
     <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light bg-light migrante-navbar py-4" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">
-              <img src="images/migrante/logo.webp" alt="logo">
-          </a>
+	      <a class="navbar-brand" href="index.html"><img src="images/migrante/logo.webp" alt="logo"></a>
+
 	      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span>
 	      </button>
@@ -40,37 +40,52 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav migrante-nav-margin navbar-mobile">
 	          <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-	          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ver modelos disponibles</a>
-              <div class="dropdown-menu migrante-dropdown" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="">Catálogo Autos</a>
-                <a class="dropdown-item" href="">Catálogo Motos</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Créditos para migrantes</a>
-              <div class="dropdown-menu migrante-dropdown" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="credito-automotriz.html">Auto</a>
-                <a class="dropdown-item" href="credito-moto.html">Moto</a>
-                <a class="dropdown-item" href="">Persona</a>
-              </div>
-            </li>
-	          <li class="nav-item active"><a href="about.html" class="nav-link">Celulares</a></li>
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mas</a>
-              <div class="dropdown-menu migrante-dropdown" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="cart.html">Documentos Crédito Persona</a>
-                <a class="dropdown-item" href="">Servicios</a>
-                <a class="dropdown-item" href="checkout.html">Firma Digital</a>
-                <a class="dropdown-item" href="checkout.html">Seguros</a>
-                <a class="dropdown-item" href="checkout.html">Portabilidad</a>
-              </div>
-            </li>
+	          <li class="nav-item dropdown d-none d-lg-block">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ver modelos disponibles</a>
+                  <div class="dropdown-menu migrante-dropdown" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="">Catálogo Autos</a>
+                      <a class="dropdown-item" href="">Catálogo Motos</a>
+                  </div>
+              </li>
+              <p class="mobile-title-link d-lg-none text-right mt-1">Ver modelos disponibles</p>
+	          <li class="nav-item d-lg-none mr-3"><a href="" class="nav-link pb-0">Catálogo Autos</a></li>
+	          <li class="nav-item d-lg-none mr-3"><a href="" class="nav-link">Catálogo Motos</a></li>
 
+              <li class="nav-item dropdown d-none d-lg-block">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Créditos para migrantes</a>
+                  <div class="dropdown-menu migrante-dropdown" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="credito-automotriz.html">Auto</a>
+                      <a class="dropdown-item" href="">Moto</a>
+                      <a class="dropdown-item" href="">Persona</a>
+                  </div>
+              </li>
+              <p class="mobile-title-link d-lg-none text-right mt-1">Créditos para migrantes</p>
+	          <li class="nav-item d-lg-none mr-3"><a href="credito-automotriz.html" class="nav-link pb-0" >Auto</a></li>
+	          <li class="nav-item d-lg-none mr-3"><a href="" class="nav-link pb-0">Moto</a></li>
+	          <li class="nav-item d-lg-none mr-3"><a href="" class="nav-link pb-0">Persona</a></li>
+
+	          <li class="nav-item"><a href="" class="nav-link mt-lg-0 mt-1">Celulares</a></li>
+
+              <li class="nav-item dropdown d-none d-lg-block">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> More </a>
+                  <div class="dropdown-menu migrante-dropdown" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="">Documentos Crédito Persona</a>
+                      <a class="dropdown-item" href="servicios.html">Servicios</a>
+                      <a class="dropdown-item" href="">Firma Digital</a>
+                      <a class="dropdown-item" href="">Seguros</a>
+                      <a class="dropdown-item" href="">Portabilidad</a>
+                  </div>
+              </li>
+              <p class="mobile-title-link d-lg-none text-right mt-1"> More </p>
+	          <li class="nav-item d-lg-none mr-3"><a href="servicios.html" class="nav-link pb-0">Documentos Crédito Persona</a></li>
+	          <li class="nav-item d-lg-none mr-3"><a href="" class="nav-link pb-0">Servicios</a></li>
+	          <li class="nav-item d-lg-none mr-3"><a href="" class="nav-link pb-0">Firma Digital</a></li>
+	          <li class="nav-item d-lg-none mr-3"><a href="" class="nav-link pb-0">Portabilidad</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
+
     <!-- END nav -->
 
     <section class="ftco-section ftco-no-pb ftco-no-pt">
@@ -84,8 +99,8 @@
                 <p>Además, contamos con aliados para ofrecer servicios adicionales que hacen más sencillos los trámites y el pago de tus créditos, la adquisición de un seguro y hasta el envío de dinero a tu país.</p>
             </div>
 
-            <div id="services-row" class="row d-flex flex-md-row flex-column justify-content-center">
-                <div class="col-lg-4 col-md-5 mb-3 mx-1 servicios-img-container" style="background-image: url('images/migrante/servicio1.webp')">
+            <div id="services-row" class="row d-flex flex-md-row flex-column justify-content-center px-md-1 px-4">
+                <div class="col-lg-3 col-md-5 mb-3 mx-1 servicios-img-container" style="background-image: url('images/migrante/servicio1.webp')">
                     <div class="color-overlay-primary-soft"></div>
                     <div class="servicio-item">
                         <div class="px-2 py-4">
@@ -95,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 mb-3 mx-1 servicios-img-container" style="background-image: url('images/migrante/servicio2.webp');">
+                <div class="col-lg-3 col-md-5 mb-3 mx-1 servicios-img-container" style="background-image: url('images/migrante/servicio2.webp');">
                     <div class="color-overlay-primary-soft"></div>
                     <div class="servicio-item">
                         <div class="px-2 py-4">
@@ -105,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 mb-3 mx-1 servicios-img-container" style="background-image: url('images/migrante/servicio3.webp')">
+                <div class="col-lg-3 col-md-5 mb-3 mx-1 servicios-img-container" style="background-image: url('images/migrante/servicio3.webp')">
                     <div class="color-overlay-primary-soft"></div>
                     <div class="servicio-item">
                         <div class="px-2 py-4">
@@ -115,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 mb-3 mx-1 servicios-img-container" style="background-image: url('images/migrante/servicio4.webp')">
+                <div class="col-lg-3 col-md-5 mb-3 mx-1 servicios-img-container" style="background-image: url('images/migrante/servicio4.webp')">
                     <div class="color-overlay-primary-soft"></div>
                     <div class="servicio-item">
                         <div class="px-2 py-4">

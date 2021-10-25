@@ -638,3 +638,11 @@ footer li a:hover {
     width: 100%;
     height: 100%;
   }
+
+.createicon
+{
+background-image: url('images/migrante/Isotipos-04.webp');
+background-repeat: no-repeat;
+padding-left: 30px;  /* width of the image plus a little extra padding */
+display: block;  /* may not need this, but I've found I do */
+}
